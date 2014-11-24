@@ -1,4 +1,5 @@
-SOURCE ubuntu:latest
+FROM ubuntu:latest
+MAINTAINER mf@dotabuff.com
 
 RUN apt-get update && \
     apt-get install -y nodejs npm
